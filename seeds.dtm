@@ -1,0 +1,14 @@
+[
+{:db/id #db/id[:db.part/user -1001], :department/name "Accounting", :department/division "Administration"}
+{:db/id #db/id[:db.part/user -1002], :department/name "Manufacturing", :department/division "Operations"}
+{:db/id #db/id[:db.part/user -1003], :department/name "Sales", :department/division "Administration"}
+{:db/id #db/id[:db.part/user -2001], :employee/firstname "Anthony", :employee/lastname "Anderson", :employee/email "aa@company.com", :employee/active true, :employee/phone "987-555-1212", :employee/exempt true, :employee/department #db/id[:db.part/user -1001]}
+{:db/id #db/id[:db.part/user -2002], :employee/firstname "Barbara", :employee/lastname "Brown", :employee/email "bb@company.com", :employee/active true, :employee/phone "987-555-1212", :employee/exempt true, :employee/department #db/id[:db.part/user -1003]}
+{:db/id #db/id[:db.part/user -2003], :employee/firstname "Christine", :employee/lastname "Carter", :employee/email "cc@company.com", :employee/active true, :employee/phone "987-555-1212", :employee/exempt true, :employee/department #db/id[:db.part/user -1001]}
+{:db/id #db/id[:db.part/user -2004], :employee/firstname "David", :employee/lastname "Downs", :employee/email "dd@company.com", :employee/active true, :employee/phone "987-555-1212", :employee/exempt true, :employee/department #db/id[:db.part/user -1002]}
+{:db/id #db/id[:db.part/user -2005], :employee/firstname "Elaine", :employee/lastname "Edwards", :employee/email "ee@company.com", :employee/active true, :employee/phone "987-555-1212", :employee/exempt true, :employee/department #db/id[:db.part/user -1002]}
+{:db/id #db/id[:db.part/user -2006], :employee/firstname "Frank", :employee/lastname "Foster", :employee/email "ff@company.com", :employee/active true, :employee/phone "987-555-1212", :employee/exempt true, :employee/department #db/id[:db.part/user -1003]}
+{:db/id #db/id[:db.part/user -2007], :employee/firstname "George", :employee/lastname "Garrett", :employee/email "gg@company.com", :employee/active true, :employee/phone "987-555-1212", :employee/exempt true, :employee/department #db/id[:db.part/user -1001]}
+{:db/id #db/id[:db.part/user -2008], :employee/firstname "Harold", :employee/lastname "Hendricks", :employee/email "hh@company.com", :employee/active true, :employee/phone "987-555-1212", :employee/exempt true, :employee/department #db/id[:db.part/user -1002]}
+{:db/id #db/id[:db.part/user -2009], :employee/firstname "Inez", :employee/lastname "Ireland", :employee/email "ii@company.com", :employee/active true, :employee/phone "987-555-1212", :employee/exempt true, :employee/department #db/id[:db.part/user -1003]}
+]
